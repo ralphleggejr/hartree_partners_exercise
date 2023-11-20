@@ -6,9 +6,9 @@ This script processes two datasets by joining them on a common column, performin
 transforming the data to obtain summarized information based on specific business logic. It is designed to be run with
 command-line arguments that specify the paths to the datasets.
 """
+import argparse
 import pandas as pd
 import numpy as np
-import argparse
 
 def main(args):
     """
